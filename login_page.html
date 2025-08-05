@@ -1,0 +1,8 @@
+<h2>Login</h2>
+    {% if msg %}<p style="color:red;">{{ msg }}</p>{% endif %}
+    <form method="POST">
+        Username: <input name="username"><br>
+        Password: <input name="password" type="password"><br>
+        <input type="submit" value="Login">
+    </form>
+    <p>No account? <a href="/signup">Sign up</a></p>
